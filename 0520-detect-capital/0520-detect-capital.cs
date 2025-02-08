@@ -2,11 +2,11 @@ public class Solution {
     public bool DetectCapitalUse(string word) {
 
 
-        // Verifica se todo word é Upper
+        // Verifica se todo word é maisucula
         if (word.ToUpper() == word)
            return true;
 
-        // Verifica se todo word é Lower
+        // Verifica se todas as ketras é minuscula
         if (word.ToLower() == word)
            return true;
 
